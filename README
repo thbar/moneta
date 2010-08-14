@@ -17,6 +17,11 @@ Out of the box, it supports:
 * SDBM
 * Tokyo
 * CouchDB
+* MongoDB
+* Fog - http://github.com/geemus/fog
+* LocalMemCache - http://localmemcache.rubyforge.org/
+
+See http://github.com/wycats/moneta/tree/master/lib/moneta/adapters/ for full list of supported adapters.
 
 All stores support key expiration, but only memcache supports it natively. All other stores
 emulate expiration.
